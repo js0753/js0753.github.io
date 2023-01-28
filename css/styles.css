@@ -15,7 +15,6 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
   color: floralwhite; }
 
 address {
@@ -27,8 +26,6 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-dark {
-  background-color: #512da8; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -53,6 +50,8 @@ body {
       top: 0px;
       left: 0px;
       min-height: 300px; }
+
+      
 
 #carouselButton {
   right: 0px;
@@ -139,7 +138,6 @@ body {
     content: " ";
     border: 8px solid rgba(255, 255, 255, 1);
     border-radius: 500%;
-    background: #9575CD;
     height: 20px;
     width: 20px;
     transition: all 500ms ease-in-out;
@@ -151,7 +149,6 @@ body {
   }
   
   .vertical-timeline ul.rb li .timestamp {
-    color: #9575CD;
     position: relative;
     font-size: 12px;
   }
@@ -192,7 +189,6 @@ body {
   
   .vertical-timeline input::placeholder {
     padding: 5em 5em 1em 1em;
-    color: #8b50d8;
   }
 
   .about h2 {
@@ -201,5 +197,47 @@ body {
     margin-top: 1%;
   }
   
+.yellow-heading{
+  font-size: 4rem;
+}
 
+.spcl{
+  font-size: 2.5rem;
+}
   
+  @media screen and (max-width: 992px) {
+    .carousel .carousel-item {
+      height: 900px; 
+ }
+
+      .car-text{
+        margin-top: 130%;
+      }
+
+      .yellow-heading{
+        font-size: 2.5rem;
+      }
+
+      #about{
+        margin: 0 auto;
+        text-align: center;
+      }
+      .rb-item{
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      .vertical-timeline .rb-container ul.rb li{
+        margin: 0 auto;
+        margin-left: 2rem;
+      }
+
+      .spcl{
+        font-size: 1.5rem;
+      }
+
+  }
+
+  .nav-item{
+    margin-left: 1.2rem;
+  }
